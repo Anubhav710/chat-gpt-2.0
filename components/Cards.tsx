@@ -13,11 +13,11 @@ const Cards = () => {
 
       {/* Middle harf  */}
       <div className="space-y-3 ">
-        <p className="infoText">"Explain Something to me"</p>
+        <p className="infoText">&quot;Explain Something to me&quot;</p>
         <p className="infoText">
-          "What is the difference between a dog and cat"
+          &quot;What is the difference between a dog and cat&quot;
         </p>
-        <p className="infoText">"What is the color of the sun?""</p>
+        <p className="infoText">&quot;What is the color of the sun?&quot;</p>
       </div>
     </div>
   );

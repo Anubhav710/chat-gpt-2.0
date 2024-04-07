@@ -24,7 +24,7 @@ const ChatRow = ({ id }: Props) => {
     if (!pathname) return;
 
     setActive(pathname.includes(id));
-  }, [pathname]);
+  }, [pathname, id]);
 
   const handleDelete = async () => {
     await deleteDoc(doc(db, "chat", id));
